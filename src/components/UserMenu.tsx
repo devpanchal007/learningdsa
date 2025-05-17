@@ -31,7 +31,7 @@ export default function UserMenu() {
           Dashboard
         </span>
         <img
-          src={user.photoURL || ''}
+          src={user.photoURL || './public/assets/dev.jpg'}
           alt={user.displayName || 'User'}
           className="h-8 w-8 rounded-full ring-2 ring-white dark:ring-gray-800"
         />
